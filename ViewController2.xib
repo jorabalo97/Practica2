@@ -18,15 +18,15 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fg5-r7-Daa">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fg5-r7-Daa">
                     <rect key="frame" x="76" y="135" width="240" height="128"/>
-                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <color key="backgroundColor" systemColor="systemCyanColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="C8h-va-YsT"/>
                         <constraint firstAttribute="width" constant="240" id="XtQ-h1-X8K"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MM1-G4-7Fq">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MM1-G4-7Fq">
                     <rect key="frame" x="76" y="334" width="235" height="76"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="235" id="JoN-n2-hJO"/>
@@ -39,6 +39,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="Fg5-r7-Daa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="76" id="66U-MQ-ncv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MM1-G4-7Fq" secondAttribute="trailing" constant="82" id="DSH-L6-5xL"/>
                 <constraint firstItem="MM1-G4-7Fq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="76" id="K2R-JJ-uV7"/>
                 <constraint firstItem="MM1-G4-7Fq" firstAttribute="top" secondItem="Fg5-r7-Daa" secondAttribute="bottom" constant="71" id="Mb7-GH-eyu"/>
@@ -53,8 +54,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemCyanColor">
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
